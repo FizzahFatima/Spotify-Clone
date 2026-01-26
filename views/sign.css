@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    background-color: #181818;
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  }
+  
+  .spotify-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    line-height: 1.4;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    background: #282828;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  input[type="email"]::placeholder {
+    color: #bbb;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    background: #282828;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  input[type="password"]::placeholder {
+    color: #bbb;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #1ed760;
+    color: black;
+  }
+  
+  .primary:hover {
+    background: #0c0e16; 
+    box-shadow: 0 4px 16px #36eca644;
+    transform: scale(1.05);
+  }
+  .primary:hover a{
+    color: #36eca6;
+  }
+
+  
+  .social {
+    background-color: #2a2a2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .google:hover {
+    background-color: #ad4e46;
+  }
+  
+  .facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .apple:hover {
+    background-color: #a2a2a2;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #888;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #444;
+    margin: 0 10px;
+  }
+  
+  .login-link {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #1ed760;
+    text-decoration: none;
+  }
+  .login-link a:hover {
+    font-size: 16px;
+    color: rgb(86, 145, 58);
+  }
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login to Spotify</title>
+  <link rel="stylesheet" href="log.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" /> 
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Spotify Logo" class="spotify-logo" />
+    <h1>Log in to Spotify</h1>
+
+    <button class="btn social google"><i class="fab fa-google"></i> Continue with Google</button>
+    <button class="btn social facebook"><i class="fab fa-facebook-f"></i> Continue with Facebook</button>
+    <button class="btn social apple"><i class="fab fa-apple"></i> Continue with Apple</button>
+
+    <div class="divider"><span>or</span></div>
+
+    <form action="/login" method="POST">
+      <label for="email">Email or username</label>
+      <input type="text" id="email" name="username" placeholder="Email or username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Password" required />
+
+      <a href="clone.html"><button type="submit" class="btn primary">Log In</button></a>
+    </form>
+
+    <a href="#" class="link">Forgot your password?</a>
+    <p class="bottom-text">Don't have an account? <a href="signup.html">Sign up for Spotify</a></p>
+
+    <% if (typeof error !== "undefined") { %>
+      <div class="error-message" style="color:red; margin-top: 10px;"><%= error %></div>
+    <% } %>
+  </div>
+</body>
+</html>
+
+

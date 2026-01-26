@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .login-container {
+    background: rgba(24, 24, 24, 0.9);
+    backdrop-filter: blur(12px);
+    padding: 40px 30px;
+    border-radius: 16px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .spotify-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .google {
+    background-color: #2a2a2a;
+    color: white;
+  }
+  .google:hover {
+    background-color: #db4437;
+  }
+  
+  .facebook {
+    background-color: #2a2a2a;
+    color: white;
+  }
+  .facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .apple {
+    background-color: #2a2a2a;
+    color: white;
+  }
+  .apple:hover {
+    background-color: #a2a2a2;
+  }
+  
+  .primary {
+    background-color: #1ed760;
+    color: black;
+  }
+  .primary:hover {
+    background-color: #1fdf64;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #444;
+    margin: 0 10px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background: #282828;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+
+  input::placeholder {
+    color: #aaa;
+  }
+  .btn:hover{
+    background: #28b840;
+  box-shadow: 0 4px 16px #36e2ec44;
+  transform: scale(1.05);
+}
+  .btn:hover a{
+    color: white;
+  }
+
+  .link {
+    color: #1ed760;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .link:hover, .bottom-text a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(86, 145, 58);
+  }
+  
+  .bottom-text {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .bottom-text a {
+    color: #1ed760;
+    text-decoration: none;
+  }
+  
